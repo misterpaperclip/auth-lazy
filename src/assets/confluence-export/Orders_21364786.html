@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jimmy FM : Orders</title>
+    <link rel="stylesheet" href="styles/site.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body class="theme-default aui-theme-default">
+    <div id="page">
+      <div id="main" class="aui-page-panel">
+        <div id="main-header">
+          <div id="breadcrumb-section">
+            <ol id="breadcrumbs">
+              <li class="first">
+                <span><a href="index.html">Jimmy FM</a></span>
+              </li>
+              <li>
+                <span><a href="Overview_16482522.html">Overview</a></span>
+              </li>
+              <li>
+                <span
+                  ><a href="Balance-Service-Administrator-Manual_18546691.html"
+                    >Balance Service Administrator Manual</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span><a href="Dashboard_19366061.html">Dashboard</a></span>
+              </li>
+            </ol>
+          </div>
+          <h1 id="title-heading" class="pagetitle">
+            <span id="title-text"> Jimmy FM : Orders </span>
+          </h1>
+        </div>
+
+        <div id="content" class="view">
+          <div class="page-metadata">
+            Created by <span class="author"> Romir</span>, last modified by
+            <span class="editor"> Jimmy FM</span> on Feb 24, 2023
+          </div>
+          <div id="main-content" class="wiki-content group">
+            <h2 id="Orders-Orders">
+              <span
+                class="inline-comment-marker"
+                data-ref="c1a19293-fcd5-4079-8b7e-5ef7fedd76f4"
+                >Orders</span
+              >
+            </h2>
+            <p>
+              You can search information about all trade operations of any
+              accounts in the &quot;Orders&quot; section. Parameters are set in
+              the ticket id field, The &quot;Search&quot; button or the
+              corresponding context menu command allows to proceed the request.
+            </p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21364786/21364850.png"
+                data-image-src="attachments/21364786/21364850.png"
+                data-height="230"
+                data-width="1850"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="21364850"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230210-081217.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21364786"
+                data-linked-resource-container-version="5"
+                data-media-id="c9a27308-048e-4b8c-83f5-1a003e36d3f0"
+                data-media-type="file"
+            /></span>
+            <h3 id="Orders-TradeDetails">Trade Details</h3>
+            <p>A full data record of trades and balance operation.</p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21364786/21364856.png"
+                data-image-src="attachments/21364786/21364856.png"
+                data-height="721"
+                data-width="431"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="21364856"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230210-081235.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21364786"
+                data-linked-resource-container-version="5"
+                data-media-id="213e759e-9a8f-4ae2-95a6-57d78368dee6"
+                data-media-type="file"
+            /></span>
+            <div class="table-wrap">
+              <table
+                data-layout="default"
+                data-local-id="11c4334f-c22c-4234-86c1-317583dbac0e"
+                class="confluenceTable"
+              >
+                <colgroup>
+                  <col style="width: 207px" />
+                  <col style="width: 1377px" />
+                  <col style="width: 107px" />
+                  <col style="width: 107px" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th class="confluenceTh">
+                      <p><strong>Field</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Description</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Data Type</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Required</strong></p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Ticket</p></td>
+                    <td class="confluenceTd"><p>order number;</p></td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Login</p></td>
+                    <td class="confluenceTd"><p>account number;</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Symbol</p></td>
+                    <td class="confluenceTd"><p>financial instrument;</p></td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Type</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        type of operation (buy, sell, sell limit, buy limit, buy
+                        stop, sell stop, balance, credit);
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Open Price</p></td>
+                    <td class="confluenceTd">
+                      <p>opening price of a position;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Open Time</p></td>
+                    <td class="confluenceTd">
+                      <p>time of opening a position;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Date Time</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Close Price</p></td>
+                    <td class="confluenceTd">
+                      <p>closing price of a position;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Close Time</p></td>
+                    <td class="confluenceTd">
+                      <p>time of closing a position;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Date Time</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>1st Conversion Rate</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        the basic currency rate of the instrument against the
+                        deposit currency by the moment of opening a position;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>double</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>2nd Conversion Rate</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        the basic currency rate of the instrument against the
+                        deposit currency by the moment of closing a position.
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>double</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Commission</p></td>
+                    <td class="confluenceTd">
+                      <p>the amount of commission;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Agent Commission</p></td>
+                    <td class="confluenceTd">
+                      <p>the amount of agent commission;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Stop Loss</p></td>
+                    <td class="confluenceTd">
+                      <p>the level of the Stop Loss order indicated;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Take Profit</p></td>
+                    <td class="confluenceTd">
+                      <p>the level of the Take Profit order indicated;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Volume</p></td>
+                    <td class="confluenceTd">
+                      <p>the volume of the lot of a position;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Profit</p></td>
+                    <td class="confluenceTd">
+                      <p>the trade operation profit;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Expiration</p></td>
+                    <td class="confluenceTd">
+                      <p>expiration of the order;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Swaps</p></td>
+                    <td class="confluenceTd"><p>swaps being accounted;</p></td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Comment</p></td>
+                    <td class="confluenceTd">
+                      <p>the text of the commnet;</p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p></p>
+            <p></p>
+            <p>
+              <span
+                class="inline-comment-marker"
+                data-ref="cd25bb11-1a10-4868-b71a-c65f3e67c097"
+                >Trade Details (Unclosed transaction)</span
+              >
+            </p>
+            <p></p>
+          </div>
+
+          <div class="pageSection group">
+            <div class="pageSectionHeader">
+              <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+            </div>
+
+            <div class="greybox" align="left">
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21364786/21364850.png"
+                >image-20230210-081217.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21364786/21364856.png"
+                >image-20230210-081235.png</a
+              >
+              (image/png)
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" role="contentinfo">
+        <section class="footer-body">
+          <p>Document generated by Confluence on Feb 27, 2023 14:47</p>
+          <div id="footer-logo">
+            <a href="http://www.atlassian.com/">Atlassian</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

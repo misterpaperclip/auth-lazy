@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jimmy FM : Toolbox</title>
+    <link rel="stylesheet" href="styles/site.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body class="theme-default aui-theme-default">
+    <div id="page">
+      <div id="main" class="aui-page-panel">
+        <div id="main-header">
+          <div id="breadcrumb-section">
+            <ol id="breadcrumbs">
+              <li class="first">
+                <span><a href="index.html">Jimmy FM</a></span>
+              </li>
+              <li>
+                <span><a href="Overview_16482522.html">Overview</a></span>
+              </li>
+              <li>
+                <span
+                  ><a href="Balance-Service-Administrator-Manual_18546691.html"
+                    >Balance Service Administrator Manual</a
+                  ></span
+                >
+              </li>
+            </ol>
+          </div>
+          <h1 id="title-heading" class="pagetitle">
+            <span id="title-text"> Jimmy FM : Toolbox </span>
+          </h1>
+        </div>
+
+        <div id="content" class="view">
+          <div class="page-metadata">
+            Created by <span class="author"> Romir</span>, last modified by
+            <span class="editor"> Jimmy FM</span> on Feb 24, 2023
+          </div>
+          <div id="main-content" class="wiki-content group">
+            <h1 id="Toolbox-Toolbox">Toolbox</h1>
+            <p>
+              This tool is created for additional information of server loads
+              and other summarize data of all accounts in trading.
+            </p>
+            <h3 id="Toolbox-Summary">
+              <a
+                href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                rel="nofollow"
+                >Summary</a
+              >
+            </h3>
+            <div id="expander-576830264" class="expand-container">
+              <div id="expander-control-576830264" class="expand-control">
+                <span class="expand-control-icon"
+                  ><img
+                    style="vertical-align: middle"
+                    class="expand-control-image"
+                    src="images/icons/grey_arrow_down.png" /></span
+                ><span class="expand-control-text"
+                  >Click here to expand...</span
+                >
+              </div>
+              <div id="expander-content-576830264" class="expand-content">
+                <p>
+                  Gives information on summary of trading per symbol of all
+                  account.
+                </p>
+                <span
+                  class="confluence-embedded-file-wrapper image-center-wrapper"
+                  ><img
+                    class="confluence-embedded-image image-center"
+                    loading="lazy"
+                    src="attachments/19398812/19366024.png"
+                    data-image-src="attachments/19398812/19366024.png"
+                    data-height="273"
+                    data-width="1829"
+                    data-unresolved-comment-count="0"
+                    data-linked-resource-id="19366024"
+                    data-linked-resource-version="1"
+                    data-linked-resource-type="attachment"
+                    data-linked-resource-default-alias="image-20230209-144736.png"
+                    data-base-url="https://jira1001.atlassian.net/wiki"
+                    data-linked-resource-content-type="image/png"
+                    data-linked-resource-container-id="19398812"
+                    data-linked-resource-container-version="4"
+                    data-media-id="7be7ea0f-93c1-42dd-a22e-b0cdcd126b1b"
+                    data-media-type="file"
+                /></span>
+                <div class="table-wrap">
+                  <table
+                    data-layout="default"
+                    data-local-id="b2b31734-3cd6-4377-8914-1e3b49df2f63"
+                    class="confluenceTable"
+                  >
+                    <colgroup>
+                      <col style="width: 193px" />
+                      <col style="width: 1094px" />
+                      <col style="width: 215px" />
+                      <col style="width: 296px" />
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <th class="confluenceTh">
+                          <p><strong>Field</strong></p>
+                        </th>
+                        <th class="confluenceTh">
+                          <p><strong>Description</strong></p>
+                        </th>
+                        <th class="confluenceTh">
+                          <p><strong>Data Type</strong></p>
+                        </th>
+                        <th class="confluenceTh">
+                          <p><strong>Required</strong></p>
+                        </th>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Symbol</p></td>
+                        <td class="confluenceTd"><p>name of the asset</p></td>
+                        <td class="confluenceTd"><p>string, 12</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Deals</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            total number of transactions (open and pending
+                            orders)
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>integer</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Buy Volume</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            total volume of open orders / total volume of
+                            pending orders (in buy)
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Buy Price</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            average price of open orders / total volume of
+                            pending orders (in buy)
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Sell Volume</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            total volume of open orders / total volume of
+                            pending orders (in sell)
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Sell Price</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            average price of open orders / total volume of
+                            pending orders (in sell)
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Net Volume</p></td>
+                        <td class="confluenceTd">
+                          <p>Total volume in all position (open only)</p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Profit (USD)</p></td>
+                        <td class="confluenceTd">
+                          <p>Total profit of all open position</p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                        <td class="confluenceTd"><p></p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <h3 id="Toolbox-Exposure">
+              <a
+                href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                rel="nofollow"
+                >Exposure</a
+              >
+            </h3>
+            <div id="expander-1271038970" class="expand-container">
+              <div id="expander-control-1271038970" class="expand-control">
+                <span class="expand-control-icon"
+                  ><img
+                    style="vertical-align: middle"
+                    class="expand-control-image"
+                    src="images/icons/grey_arrow_down.png" /></span
+                ><span class="expand-control-text"
+                  >Click here to expand...</span
+                >
+              </div>
+              <div id="expander-content-1271038970" class="expand-content">
+                <p>
+                  Summary of Profit/Loss of all accounts grouped by currency.
+                </p>
+                <span
+                  class="confluence-embedded-file-wrapper image-center-wrapper"
+                  ><img
+                    class="confluence-embedded-image image-center"
+                    loading="lazy"
+                    src="attachments/19398812/19366030.png"
+                    data-image-src="attachments/19398812/19366030.png"
+                    data-height="266"
+                    data-width="1843"
+                    data-unresolved-comment-count="0"
+                    data-linked-resource-id="19366030"
+                    data-linked-resource-version="1"
+                    data-linked-resource-type="attachment"
+                    data-linked-resource-default-alias="image-20230209-145021.png"
+                    data-base-url="https://jira1001.atlassian.net/wiki"
+                    data-linked-resource-content-type="image/png"
+                    data-linked-resource-container-id="19398812"
+                    data-linked-resource-container-version="4"
+                    data-media-id="d7ca91af-53d1-420a-ae30-83a6d0c84058"
+                    data-media-type="file"
+                /></span>
+                <div class="table-wrap">
+                  <table
+                    data-layout="default"
+                    data-local-id="9ef4d856-b03c-42e8-beef-b11df8f9a7da"
+                    class="confluenceTable"
+                  >
+                    <colgroup>
+                      <col style="width: 193px" />
+                      <col style="width: 1094px" />
+                      <col style="width: 215px" />
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <th class="confluenceTh">
+                          <p><strong>Field</strong></p>
+                        </th>
+                        <th class="confluenceTh">
+                          <p><strong>Description</strong></p>
+                        </th>
+                        <th class="confluenceTh">
+                          <p><strong>Data Type</strong></p>
+                        </th>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Currency</p></td>
+                        <td class="confluenceTd">
+                          <p>name of the currency</p>
+                        </td>
+                        <td class="confluenceTd"><p>string, 12</p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Balance</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            total balance of the client in the specified
+                            currency;
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Coverage</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            total negative balance of the client in the
+                            specified currency
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Net Total</p></td>
+                        <td class="confluenceTd">
+                          <p>
+                            total balance (balance + coverage) of the client in
+                            the specified currency;
+                          </p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Rate</p></td>
+                        <td class="confluenceTd">
+                          <p>conversion rate of currency to USD currency</p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                      </tr>
+                      <tr>
+                        <td class="confluenceTd"><p>Net Total (USD)</p></td>
+                        <td class="confluenceTd">
+                          <p>net total converted in USD currency</p>
+                        </td>
+                        <td class="confluenceTd"><p>double</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <h3 id="Toolbox-*">
+              <span
+                class="inline-comment-marker"
+                data-ref="415ed599-0ab8-46a9-b5a1-2f7bf124444d"
+                >*</span
+              >
+            </h3>
+            <p></p>
+            <div id="expander-1731645647" class="expand-container">
+              <div id="expander-control-1731645647" class="expand-control">
+                <span class="expand-control-icon"
+                  ><img
+                    style="vertical-align: middle"
+                    class="expand-control-image"
+                    src="images/icons/grey_arrow_down.png" /></span
+                ><span class="expand-control-text"
+                  >Features that are Coming Soon</span
+                >
+              </div>
+              <div id="expander-content-1731645647" class="expand-content">
+                <h3 id="Toolbox-Dealing">
+                  <a
+                    href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                    rel="nofollow"
+                    >Dealing</a
+                  >
+                </h3>
+                <h3 id="Toolbox-Alerts">
+                  <a
+                    href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                    rel="nofollow"
+                    >Alerts</a
+                  >
+                </h3>
+                <h3 id="Toolbox-Mailbox">
+                  <a
+                    href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                    rel="nofollow"
+                    >Mailbox</a
+                  >
+                </h3>
+                <h3 id="Toolbox-News">
+                  <a
+                    href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                    rel="nofollow"
+                    >News</a
+                  >
+                </h3>
+                <h3 id="Toolbox-Support">
+                  <a
+                    href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                    rel="nofollow"
+                    >Support</a
+                  >
+                </h3>
+                <h3 id="Toolbox-Journal">
+                  <a
+                    href="https://jira1001.atlassian.net/wiki/spaces/~5d12002e5a5f210c4873b0ec/pages/18546691/Balance+Service+Administrator+Manual#Table-of-Contents"
+                    rel="nofollow"
+                    >Journal</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <hr />
+            <p></p>
+          </div>
+
+          <div class="pageSection group">
+            <div class="pageSectionHeader">
+              <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+            </div>
+
+            <div class="greybox" align="left">
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/19398812/19366024.png"
+                >image-20230209-144736.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/19398812/19366030.png"
+                >image-20230209-145021.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/19398812/19366036.png"
+                >image-20230209-145050.png</a
+              >
+              (image/png)
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" role="contentinfo">
+        <section class="footer-body">
+          <p>Document generated by Confluence on Feb 27, 2023 14:47</p>
+          <div id="footer-logo">
+            <a href="http://www.atlassian.com/">Atlassian</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

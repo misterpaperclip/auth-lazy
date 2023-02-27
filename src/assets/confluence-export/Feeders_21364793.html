@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jimmy FM : Feeders</title>
+    <link rel="stylesheet" href="styles/site.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body class="theme-default aui-theme-default">
+    <div id="page">
+      <div id="main" class="aui-page-panel">
+        <div id="main-header">
+          <div id="breadcrumb-section">
+            <ol id="breadcrumbs">
+              <li class="first">
+                <span><a href="index.html">Jimmy FM</a></span>
+              </li>
+              <li>
+                <span><a href="Overview_16482522.html">Overview</a></span>
+              </li>
+              <li>
+                <span
+                  ><a href="Balance-Service-Administrator-Manual_18546691.html"
+                    >Balance Service Administrator Manual</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span><a href="Dashboard_19366061.html">Dashboard</a></span>
+              </li>
+            </ol>
+          </div>
+          <h1 id="title-heading" class="pagetitle">
+            <span id="title-text"> Jimmy FM : Feeders </span>
+          </h1>
+        </div>
+
+        <div id="content" class="view">
+          <div class="page-metadata">
+            Created by <span class="author"> Romir</span>, last modified by
+            <span class="editor"> Jimmy FM</span> on Feb 24, 2023
+          </div>
+          <div id="main-content" class="wiki-content group">
+            <h2 id="Feeders-Feeders">Feeders</h2>
+            <p>
+              BS Server allows to connect external data feeds for live prices.
+              Using .NET TCP, the user can connect this to the server and send
+              quotes via socket.
+            </p>
+            <p>
+              By clicking “Added New Feeder”, it will allow the user to add new
+              data feeds in the platform.
+            </p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21364793/21364873.png"
+                data-image-src="attachments/21364793/21364873.png"
+                data-height="639"
+                data-width="1230"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="21364873"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230210-084434.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21364793"
+                data-linked-resource-container-version="4"
+                data-media-id="3ec2d3c6-8cc1-4eb1-8c3c-8a3c22d2b77a"
+                data-media-type="file"
+            /></span>
+            <div class="table-wrap">
+              <table
+                data-layout="default"
+                data-local-id="5c29ac54-66f8-4016-909d-29cd899cc799"
+                class="confluenceTable"
+              >
+                <colgroup>
+                  <col style="width: 48px" />
+                  <col style="width: 616px" />
+                  <col style="width: 48px" />
+                  <col style="width: 48px" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th class="confluenceTh">
+                      <p><strong>Field</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Description</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Data Type</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Required</strong></p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Name</p></td>
+                    <td class="confluenceTd">
+                      <p>the name of the data feeder</p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Server</p></td>
+                    <td class="confluenceTd">
+                      <p>the server address and port for connection;</p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Keywords</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        the list of keywords separated by commas. In case of
+                        quotes feeders keywords can be used as symbol filters.
+                        For example, if EURUSD is specified in this filed, this
+                        data feed will translate quotes only for the indicated
+                        symbol.
+                      </p>
+                      <ul>
+                        <li>
+                          <p>
+                            The mask containing wildcard characters '*' or '!'
+                            can be used in this field. For example, if
+                            '!EURUSD,EUR*' is specified, all quotes for EUR
+                            pairs except EURUSD will be translated.
+                          </p>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <p>
+                            If a non-existent symbol (or set of symbols) is
+                            specified, it will be assumed that filtering is
+                            disabled and the data feed will provide data on all
+                            available symbols.
+                          </p>
+                        </li>
+                      </ul>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Status</p></td>
+                    <td class="confluenceTd">
+                      <p>enabling/disabling a feeder;</p>
+                    </td>
+                    <td class="confluenceTd"><p>boolean</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="Feeders-AddNewFeeder">Add New Feeder</h3>
+            <p>This tab is intended to add new feeder in the platform.</p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21364793/21364879.png"
+                data-image-src="attachments/21364793/21364879.png"
+                data-height="393"
+                data-width="485"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="21364879"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230210-084446.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21364793"
+                data-linked-resource-container-version="4"
+                data-media-id="8f691ce0-749c-4024-923f-d8296a9af389"
+                data-media-type="file"
+            /></span>
+          </div>
+
+          <div class="pageSection group">
+            <div class="pageSectionHeader">
+              <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+            </div>
+
+            <div class="greybox" align="left">
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21364793/21364873.png"
+                >image-20230210-084434.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21364793/21364879.png"
+                >image-20230210-084446.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21364793/21364885.png"
+                >image-20230210-084500.png</a
+              >
+              (image/png)
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" role="contentinfo">
+        <section class="footer-body">
+          <p>Document generated by Confluence on Feb 27, 2023 14:47</p>
+          <div id="footer-logo">
+            <a href="http://www.atlassian.com/">Atlassian</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

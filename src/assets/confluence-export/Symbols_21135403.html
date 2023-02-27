@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jimmy FM : Symbols</title>
+    <link rel="stylesheet" href="styles/site.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body class="theme-default aui-theme-default">
+    <div id="page">
+      <div id="main" class="aui-page-panel">
+        <div id="main-header">
+          <div id="breadcrumb-section">
+            <ol id="breadcrumbs">
+              <li class="first">
+                <span><a href="index.html">Jimmy FM</a></span>
+              </li>
+              <li>
+                <span><a href="Overview_16482522.html">Overview</a></span>
+              </li>
+              <li>
+                <span
+                  ><a href="Balance-Service-Administrator-Manual_18546691.html"
+                    >Balance Service Administrator Manual</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span><a href="Dashboard_19366061.html">Dashboard</a></span>
+              </li>
+            </ol>
+          </div>
+          <h1 id="title-heading" class="pagetitle">
+            <span id="title-text"> Jimmy FM : Symbols </span>
+          </h1>
+        </div>
+
+        <div id="content" class="view">
+          <div class="page-metadata">
+            Created by <span class="author"> Romir</span>, last modified by
+            <span class="editor"> Jimmy FM</span> on Feb 24, 2023
+          </div>
+          <div id="main-content" class="wiki-content group">
+            <h2 id="Symbols-Symbols">Symbols</h2>
+            <p>
+              In this section, the list of financial instruments (symbols) and
+              their settings are kept;
+            </p>
+            <p>
+              “New Symbol Config” will give the user the ability to add new
+              symbol in this section.
+            </p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21135403/21168376.png"
+                data-image-src="attachments/21135403/21168376.png"
+                data-height="614"
+                data-width="1638"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="21168376"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230210-081320.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21135403"
+                data-linked-resource-container-version="6"
+                data-media-id="fcb20c83-ae6c-4fde-b4a8-60d8b94ac595"
+                data-media-type="file"
+            /></span>
+            <div class="table-wrap">
+              <table
+                data-layout="default"
+                data-local-id="35770ed6-e9fd-400d-b153-99dbc77988ce"
+                class="confluenceTable"
+              >
+                <colgroup>
+                  <col style="width: 160px" />
+                  <col style="width: 1413px" />
+                  <col style="width: 121px" />
+                  <col style="width: 104px" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th class="confluenceTh">
+                      <p><strong>Field</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Description</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Data Type</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Required</strong></p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Symbol</p></td>
+                    <td class="confluenceTd"><p>name of the instrument;</p></td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Type</p></td>
+                    <td class="confluenceTd">
+                      <p>instrument group (forex, cfd, futures, stocks);</p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Digits</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        amount of digits after the point in the instrument
+                        price;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Hedged</p></td>
+                    <td class="confluenceTd">
+                      <p>the &quot;hedged&quot; margin;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Initial Margin</p></td>
+                    <td class="confluenceTd">
+                      <p>the initial margin (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Margin Calculation</p></td>
+                    <td class="confluenceTd">
+                      <p>the formula of margin calculation.</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Margin Currency</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        is currency of margin calculation. This field is used
+                        when it is necessary to calculate margin requirements
+                        for a currency, other than the standard one of a symbol.
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Maintenance</p></td>
+                    <td class="confluenceTd">
+                      <p>the &quot;maintaining&quot; margin (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Percentage</p></td>
+                    <td class="confluenceTd">
+                      <p>margin calculation factor, in percentage;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Tick Size</p></td>
+                    <td class="confluenceTd">
+                      <p>the tick size (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Tick Price</p></td>
+                    <td class="confluenceTd">
+                      <p>the price of a tick (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Trade Mode</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        permission to deal in this instrument: &quot;Full
+                        access&quot; allows to close and open positions;
+                        &quot;Close only&quot; allows only closing;
+                        &quot;No&quot; — full prohibit to trade;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="Symbols-AddSymbolConfig">
+              <span
+                class="inline-comment-marker"
+                data-ref="73205587-af3d-4fbe-bf00-17ad300e3936"
+                >Add Symbol Config</span
+              >
+            </h3>
+            <p>
+              Intended to add symbol configuration, in this phase user will fill
+              Symbol details and common configuration for the symbol.
+            </p>
+            <h4 id="Symbols-SymbolConfiguration">Symbol Configuration</h4>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21135403/21168382.png"
+                data-image-src="attachments/21135403/21168382.png"
+                data-height="595"
+                data-width="689"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="21168382"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230210-081401.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21135403"
+                data-linked-resource-container-version="6"
+                data-media-id="482a3050-5c54-4610-8adc-8173029ef3f6"
+                data-media-type="file"
+            /></span>
+            <div class="table-wrap">
+              <table
+                data-layout="default"
+                data-local-id="c1fb2844-ada5-4b98-8ead-4e820372c8b0"
+                class="confluenceTable"
+              >
+                <colgroup>
+                  <col style="width: 84px" />
+                  <col style="width: 734px" />
+                  <col style="width: 70px" />
+                  <col style="width: 48px" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th class="confluenceTh">
+                      <p><strong>Field</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Description</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Data Type</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Required</strong></p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Symbol</p></td>
+                    <td class="confluenceTd"><p>name of the instrument;</p></td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Type</p></td>
+                    <td class="confluenceTd">
+                      <p>instrument group (forex, cfd, futures, stocks);</p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Desciption</p></td>
+                    <td class="confluenceTd">
+                      <p>description of the instrument;</p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Digits</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        the amount of digits after the point in the instrument's
+                        quotes;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Currency</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        is calculation currency of the instrument. For the
+                        instruments with
+                        <a
+                          href="https://support.metaquotes.net/en/docs/mt4/administrator/administration/ug_symbols/profit_calculation"
+                          class="external-link"
+                          rel="nofollow"
+                          >Forex profit calculation</a
+                        >, the currency field denotes the underlying asset. It
+                        is always set as the first currency in the pair, and it
+                        cannot be changed. The second currency in the pair is
+                        used as the profit currency. For the instruments with
+                        CFD and Futures profit calculation, the currency field
+                        denotes the underlying assets and the profit currency.
+                        For this type of instruments the currency field is
+                        editable;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Margin Currency</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        is currency of margin calculation. This field is used
+                        when it is necessary to calculate margin requirements
+                        for a currency, other than the standard one of a symbol.
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Trade Mode</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        permission to deal in this instrument: &quot;Full
+                        access&quot; allows to close and open positions;
+                        &quot;Close only&quot; allows only closing;
+                        &quot;No&quot; — full prohibit to trade;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>String</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Long Only</p></td>
+                    <td class="confluenceTd">
+                      <p>only long orders are allowed;</p>
+                    </td>
+                    <td class="confluenceTd"><p>Boolean</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Allow Feeder</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        allowing/prohibiting taking realtime quotes for this
+                        symbol from datafeeds. If this option is disabled a
+                        dealer may throw in the quotes for this symbol manually;
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p>Boolean</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Spread</p></td>
+                    <td class="confluenceTd"><p>spread in points;</p></td>
+                    <td class="confluenceTd"><p>Integer</p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p></p>
+            <h4 id="Symbols-Calculations">Calculations</h4>
+            <p>
+              All calculations used in margin and trading are kept in this tab;
+            </p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21135403/22020097.png"
+                data-image-src="attachments/21135403/22020097.png"
+                data-height="683"
+                data-width="625"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="22020097"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230223-061908.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21135403"
+                data-linked-resource-container-version="6"
+                data-media-id="0d625aff-eb74-4f42-b430-736860bc797e"
+                data-media-type="file"
+            /></span>
+            <div class="table-wrap">
+              <table
+                data-layout="default"
+                data-local-id="77730a06-6935-45a2-8bc2-9cbc81fa659e"
+                class="confluenceTable"
+              >
+                <colgroup>
+                  <col style="width: 140px" />
+                  <col style="width: 515px" />
+                  <col style="width: 48px" />
+                  <col style="width: 48px" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th class="confluenceTh">
+                      <p><strong>Field</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Description</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Data Type</strong></p>
+                    </th>
+                    <th class="confluenceTh">
+                      <p><strong>Required</strong></p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Contract Size</p></td>
+                    <td class="confluenceTd">
+                      <p>the size of the contract</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Initial Margin</p></td>
+                    <td class="confluenceTd">
+                      <p>the initial margin (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Maintenance</p></td>
+                    <td class="confluenceTd">
+                      <p>the initial margin (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Hedged</p></td>
+                    <td class="confluenceTd">
+                      <p>the &quot;hedged&quot; margin;</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Tick Size</p></td>
+                    <td class="confluenceTd">
+                      <p>the tick size (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Tick Price</p></td>
+                    <td class="confluenceTd">
+                      <p>the tick size (for futures);</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Percentage</p></td>
+                    <td class="confluenceTd">
+                      <p>margin calculation factor, in percentage;</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Swap Type</p></td>
+                    <td class="confluenceTd">
+                      <ul>
+                        <li><p>the type of rollover calculation:</p></li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <p>
+                            <strong>by points</strong> — swaps are charged in
+                            points in the volume specified below for short and
+                            long positions. The specified number of points is
+                            charged for each lot of a position. Swap size is
+                            converted from points to money (deposit currency).
+                            To do it, the point price of the corresponding buy
+                            position position is calculated (regardless of the
+                            actual direction of the position).
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            <strong>by money</strong> — in calculation currency.
+                            The swap size is converted from the base currency
+                            into the deposit currency using the average price at
+                            the moment of swap charging: (Bid+Ask)/2.
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            <strong>by interest</strong> — as annual interest
+                            rate.  Since swaps are calculated and charged every
+                            day at the end of day time, the calculated amount of
+                            the annual interest rate is divided by 360. When
+                            charging swaps, first the cost of one symbol lot is
+                            calculated (the symbol of the opened position), and
+                            then the specified percent is calculated, the
+                            obtained amount is multiplied by the position volume
+                            (in lots) and the result is divided by 360. If the
+                            base currency of the symbol is different from the
+                            deposit currency, the swap is converted into the
+                            deposit currency. The conversion is performed using
+                            the average price at the moment of swap charging:
+                            (Bid+Ask)/2.
+                          </p>
+                        </li>
+                      </ul>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Swap Long</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        rollover values for calculation of long positions. The
+                        values can be redefined.
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Swap Short</p></td>
+                    <td class="confluenceTd">
+                      <p>
+                        rollover values for calculation of short positions. The
+                        values can be redefined.
+                      </p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Margin Calculation</p></td>
+                    <td class="confluenceTd">
+                      <p>the formula of margin calculation.</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                  <tr>
+                    <td class="confluenceTd"><p>Profit Calculation</p></td>
+                    <td class="confluenceTd">
+                      <p>the formula of profit calculation;</p>
+                    </td>
+                    <td class="confluenceTd"><p></p></td>
+                    <td class="confluenceTd"><p></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h4 id="Symbols-Sessions">Sessions</h4>
+            <p>
+              The Sessions tab is used for controlling the operating time of a
+              financial instrument on certain days of the week.
+            </p>
+            <p>
+              To set the allowed trading time for the symbol, check the Day in
+              checkbox. Then set the start and end of the period in the
+              &quot;Opening&quot; and &quot;Closing&quot; fields.
+            </p>
+            <p></p>
+            <span class="confluence-embedded-file-wrapper image-center-wrapper"
+              ><img
+                class="confluence-embedded-image image-center"
+                loading="lazy"
+                src="attachments/21135403/22020107.png"
+                data-image-src="attachments/21135403/22020107.png"
+                data-height="797"
+                data-width="629"
+                data-unresolved-comment-count="0"
+                data-linked-resource-id="22020107"
+                data-linked-resource-version="1"
+                data-linked-resource-type="attachment"
+                data-linked-resource-default-alias="image-20230223-062847.png"
+                data-base-url="https://jira1001.atlassian.net/wiki"
+                data-linked-resource-content-type="image/png"
+                data-linked-resource-container-id="21135403"
+                data-linked-resource-container-version="6"
+                data-media-id="73736731-ed6d-4561-a51a-1eac035ff845"
+                data-media-type="file"
+            /></span>
+            <h4
+              id="Symbols-Attention:Itishighlyrecommendedtoperformoperationsofchangingthelistoffinancialinstrumentsonholidaysonly,whenmarketsareclosed."
+            >
+              Attention: It is highly recommended to perform operations of
+              changing the list of financial instruments on holidays only, when
+              markets are closed.
+            </h4>
+          </div>
+
+          <div class="pageSection group">
+            <div class="pageSectionHeader">
+              <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+            </div>
+
+            <div class="greybox" align="left">
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21135403/21168376.png"
+                >image-20230210-081320.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21135403/21168382.png"
+                >image-20230210-081401.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21135403/22020097.png"
+                >image-20230223-061908.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21135403/22020107.png"
+                >image-20230223-062847.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21135403/22020115.png"
+                >image-20230223-062954.png</a
+              >
+              (image/png)
+              <br />
+              <img
+                src="images/icons/bullet_blue.gif"
+                height="8"
+                width="8"
+                alt=""
+              />
+              <a href="attachments/21135403/21987338.png"
+                >image-20230223-062959.png</a
+              >
+              (image/png)
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" role="contentinfo">
+        <section class="footer-body">
+          <p>Document generated by Confluence on Feb 27, 2023 14:47</p>
+          <div id="footer-logo">
+            <a href="http://www.atlassian.com/">Atlassian</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
