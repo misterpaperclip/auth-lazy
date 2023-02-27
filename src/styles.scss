@@ -5109,3 +5109,35 @@ app-sidebar .cell.normal {
 app-sidebar {
   width: var(--leftsidebar-width, 240px);
 }
+
+.table-wrap table {
+  border-collapse: collapse;
+  border: 1px solid var(--ds-border, #c1c7d0);
+  table-layout: fixed;
+  font-size: 1em;
+  width: 100%;
+}
+
+.table-wrap table > tbody > tr > th {
+  background-color: var(--ds-background-neutral, #f4f5f7);
+  text-align: left;
+}
+
+.table-wrap table > tbody > tr > th > p,
+.table-wrap table > tbody > tr > td > p {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.table-wrap table > tbody > tr > th,
+.table-wrap table > tbody > tr > td {
+  border-collapse: collapse;
+  border: 1px solid var(--ds-border, #c1c7d0);
+  table-layout: fixed;
+  font-size: 1em;
+  width: 100%;
+}

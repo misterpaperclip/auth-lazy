@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', 
+setTimeout(function() {
     let titleText = document.getElementById('title-text');
     titleText.textContent = 'Balance Service Administrator Manual';
 
@@ -32,5 +33,5 @@ document.addEventListener('DOMContentLoaded', function() {
                 content.classList.add('hidden');
             }
         });
-    }
-});
+    }}, 50)
+    );
